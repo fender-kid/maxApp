@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -10,6 +11,7 @@ import { ServerComponent } from './server/server.component';
     ServerComponent
   ],
   imports: [
+    FormsModule,
     BrowserModule
   ],
   providers: [],
